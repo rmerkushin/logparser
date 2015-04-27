@@ -1,0 +1,7 @@
+{
+    "log4j": {
+        "pattern": "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}.\\d{3}) \\[(.*)\\] ([^ ]*) ([^ ]*) - (.*)",
+        "payload": true,
+        "fields": ["TIMESTAMP", "THREAD_ID", "LEVEL", "CATEGORY", "MESSAGE"]
+    }
+}
