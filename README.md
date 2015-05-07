@@ -4,8 +4,8 @@ LogParser
 LogParser is a flexible, cross-platform tool that provides universal query access to text-based data such as log files.
 
 **Download binary**:
-- :arrow_down: [Mac OS](https://github.com/rmerkushin/logparser/releases/download/v0.1/logparser-mac-0.1.zip)
-- :arrow_down: [Windows](https://github.com/rmerkushin/logparser/releases/download/v0.1/logparser-win-0.1.zip)
+- :arrow_down: [Mac OS](https://github.com/rmerkushin/logparser/releases/download/v0.2/logparser-mac-0.2.zip)
+- :arrow_down: [Windows](https://github.com/rmerkushin/logparser/releases/download/v0.2/logparser-win-0.2.zip)
 
 ### Input formats
 - log4j log files
