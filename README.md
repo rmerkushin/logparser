@@ -22,8 +22,10 @@ LogParser is a flexible, cross-platform tool that provides universal query acces
 
 ### Usage example
 Сommand line arguments:
+- -d, --delete - delete temporary DB file (without this flag, the program will use previous processing results if they exist)
 - -r, --remote - sftp connection string (username/password@host:port)
 - -f, --format - log file format
+- -e, --encoding - log file encoding (default - UTF-8)
 - -i, --input - path to log file
 - -q, --query - select query
 - -o, --output - output filename (output format depends on extension)
