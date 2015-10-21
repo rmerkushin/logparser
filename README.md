@@ -52,3 +52,7 @@ You can add a new log format by editing templates.json file:
 `payload` - flag. If true, all lines which do not match to pattern will be added to "PAYLOAD" field.
 
 `fields` - table fields that will be filled values from parsed lines of log file. Fields should be correlated to regex pattern groups.
+
+### Known issuses
+- in case of log file contains special symbols the program might be crashed (see image below for details)
+![](https://raw.githubusercontent.com/rmerkushin/logparser/master/special_symbols.png)
