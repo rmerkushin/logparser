@@ -107,8 +107,9 @@ def main():
                                        % (payload.rstrip(), cursor.lastrowid)
                         cursor.execute(update_query)
                         payload = ""
+                    parsed_groups = [s if s else "" for s in parsed.groups()]
                     insert_query = "INSERT INTO LOG (%s) VALUES ('%s')" \
-                                   % (", ".join(fields), "', '".join(parsed.groups()))
+                                   % (", ".join(fields), "', '".join(parsed_groups))
                     cursor.execute(insert_query)
                 elif cursor.lastrowid:
                     payload += string + "\n"
