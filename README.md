@@ -30,7 +30,7 @@ LogParser is a flexible, cross-platform tool that provides universal query acces
 - -q, --query - select query
 - -o, --output - output filename (output format depends on extension)
 ```shell
-logparser -f log4j -i /path/to/log/file -q "SELECT * FROM LOG WHERE LEVEL = 'ERROR" -o /path/to/output/file.txt
+logparser -f log4j -i /path/to/log/file -q "SELECT * FROM LOG WHERE LEVEL = 'ERROR'" -o /path/to/output/file.txt
 ```
 Example above shows how get all messages from log with logging level "ERROR".
 
